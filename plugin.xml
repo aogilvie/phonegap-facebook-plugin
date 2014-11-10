@@ -35,6 +35,9 @@
     <!-- android -->
     <platform name="android">
 
+        <dependency id="android.support.v4" url="https://github.com/MobileChromeApps/cordova-plugin-android-support-v4" commit="be140fb103f87faa2a2da8268dbec1d93e32790d" />
+        <dependency id="android.bolts" url="https://github.com/Wizcorp/phonegap-plugin-bolts-framework" commit="43efa0c081f37e48cc2258eb67a3b946d8cdb52f" />
+
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
                 <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
